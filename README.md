@@ -160,10 +160,3 @@ VulnLab Hacksudo includes the following vulnerable applications:
 ## Contributing
 
 We welcome contributions from the community! If you have any ideas for new vulnerabilities to include, or improvements to the existing setup, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Feel free to modify the content to better fit your specific lab setup and vulnerabilities.
