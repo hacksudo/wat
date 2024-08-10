@@ -1,7 +1,6 @@
-# VulnLab Hacksudo 
+# VulnLab Hacksudo
 
 VulnLab hacksudo is a customizable vulnerability lab setup designed for penetration testers, security enthusiasts, and educators to practice and learn about various security vulnerabilities in a controlled environment.
-whole credit goes to vulnlab Yavuzlar https://github.com/Yavuzlar/VulnLab
 
 ## Table of Contents
 
@@ -17,7 +16,7 @@ whole credit goes to vulnlab Yavuzlar https://github.com/Yavuzlar/VulnLab
 
 ## Introduction
 
-VulnLab Yavuzlar provides a series of Docker containers pre-configured with various vulnerable applications and systems. The lab is designed to help users practice exploiting these vulnerabilities and to better understand how to secure systems against such attacks.
+VulnLab Hacksudo provides a series of Docker containers pre-configured with various vulnerable applications and systems. The lab is designed to help users practice exploiting these vulnerabilities and to better understand how to secure systems against such attacks.
 
 ## Features
 
@@ -37,46 +36,27 @@ VulnLab Yavuzlar provides a series of Docker containers pre-configured with vari
 
 1. **Run the setup script:**
 
+    ```bash
+    chmod +x wat_run.sh
+    ./wat_run.sh
+    ```
+
     The `wat_run.sh` script will:
     - Update your system
     - Install Docker (if not installed)
     - Pull the necessary Docker images
-Save this script as `wat_run.sh`, make it executable, and then run it:
-
-```bash
-chmod +x wat_run.sh
-./wat_run.sh
-```
-even you can save it in /bin if you want to make it command 
-```bash
-cp wat_run.sh /bin/wat
-chmod 777 /bin/wat
-```
-
-now you can run wat command and start lab at any time but
-if you already started lab and again runing it then it will show you already lab started error
-so stop privious lab 
-
-```bash
-docker ps
-docker stop  containerid
-```
-
-and now run wat it will work 
-
-Here’s the updated README with the requested vulnerability details and without the GitHub download section:
-
-```markdown
+    - Start Wat image
+    - Give ip iddress of Lab
 
 ### Usage
 
-1. **Start the lab:**
+1. **Make it command as wat:**
 
     ```bash
-    ./run_lab.sh
+    cp wat_run.sh /bin/wat
     ```
 
-    The `run_lab.sh` script will start the Docker containers.
+    The `wat` This command will start the Docker containers.
 
 2. **Access the lab:**
 
@@ -84,7 +64,7 @@ Here’s the updated README with the requested vulnerability details and without
 
 ## Vulnerabilities
 
-VulnLab Yavuzlar includes the following vulnerable applications:
+VulnLab Hacksudo includes the following vulnerable applications:
 
 ### 1. SQL Injection (SQLi)
 
