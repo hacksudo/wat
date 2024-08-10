@@ -1,4 +1,4 @@
-# VulnLab HAcksudo 
+# VulnLab Hacksudo 
 
 VulnLab hacksudo is a customizable vulnerability lab setup designed for penetration testers, security enthusiasts, and educators to practice and learn about various security vulnerabilities in a controlled environment.
 
