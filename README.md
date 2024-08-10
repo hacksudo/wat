@@ -50,7 +50,7 @@ VulnLab Hacksudo provides a series of Docker containers pre-configured with vari
 
 ### Usage
 
-1. **Make it command as wat:**
+1. **Make wat command and run it by command:**
 
     ```bash
     cp wat_run.sh /bin/wat
